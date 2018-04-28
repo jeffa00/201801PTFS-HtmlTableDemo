@@ -1,0 +1,19 @@
+body {
+    background-color: wheat;
+}
+
+table {
+    border: 1px solid red;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: springgreen;
+}
+
+tr{
+    background-color: salmon;
+}
+
+th, td {
+    border: 1px dashed blue;
+    background-color: plum;
+}

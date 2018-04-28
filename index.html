@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table Demo</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+    <h1>Table Demo</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Col 1</th>
+                <th>Col 2</th>
+                <th>Col 3</th>
+                <th>Col 4</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td>Footer 1</td>
+                <td>Footer 2</td>
+                <td>Footer 3</td>
+                <td>Footer 4</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td rowspan="2">This is my first column.</td>
+                <td>This is my second column.</td>
+                <td>This is my third column.</td>
+                <td>This is my fourth column.</td>
+            </tr>
+            <tr>
+                <td colspan="2">This is my second column.</td>
+                <td>This is my fourth column.</td>
+            </tr>
+            <tr>
+                <td>This is my first column.</td>
+                <td>This is my third column.</td>
+                <td>This is my&nbsp;fourth column.</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Favorite Color</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>00001</td>
+            <td>Blue</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>00002</td>
+            <td>Blue</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>00003</td>
+            <td>Blue</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
